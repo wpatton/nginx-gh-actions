@@ -37,7 +37,7 @@ jobs:
             docker build . --file Dockerfile --tag waynepatton/nginx1:${{ env.IMAGE_TAG }}
       - name: Push image to container registry
         run: |
-          docker push waynepatton/nginx1${{ env.IMAGE_TAG }}
+          docker push waynepatton/nginx1:${{ env.IMAGE_TAG }}
       - name: Push latest tag to container registry
         if: ${{ github.ref_name == 'master' }}
         run: |
