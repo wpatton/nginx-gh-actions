@@ -7,5 +7,4 @@ Dockerfile - Just simple Dockerfile building an nginx container with an index.ht
 
 index.html - Just a simple index.html file for example purposes
 
-README.md - Umm really? 
-
+I am learning a bit about github actions and wanted to try building a container image
